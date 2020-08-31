@@ -1,0 +1,617 @@
+1598907526835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile1Jc5j0"
+1598907527506	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598907527934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598907527934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598907527934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598907527934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598907530424	Marionette	INFO	Listening on port 54165
+1598907530465	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.c524503b3888dab273d7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.c524503b3888dab273d7.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.c524503b3888dab273d7.js, line 1: unreachable code after return statement
+1598907533416	Marionette	INFO	Stopped listening on port 54165
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598907547755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilexSncgX"
+1598907548087	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598907548497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598907548497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598907548497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598907548497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598907550865	Marionette	INFO	Listening on port 54286
+1598907551367	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598907565532	Marionette	INFO	Stopped listening on port 54286
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598907569999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile0oV2Jl"
+1598907570305	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598907570692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598907570693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598907570693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598907570693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598907572786	Marionette	INFO	Listening on port 54437
+1598907573108	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+JavaScript error: https://s.yimg.com/oa/build/js/site-04253264.js, line 9: TypeError: containsClass: Invalid argument type
+1598907592871	Marionette	INFO	Stopped listening on port 54437
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598907599443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile5ok0Kt"
+1598907599754	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598907600167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598907600168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598907600168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598907600168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598907602269	Marionette	INFO	Listening on port 54642
+1598907602555	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin o1598907967567	Marionette	INFO	Stopped listening on port 55497
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+JavaScript error: moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/background.js, line 10: Error: Permission denied to access property "document" on cross-origin object
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+JavaScript error: moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/background.js, line 10: Error: Permission denied to access property "document" on cross-origin object
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:153:9
+setOptions@moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:620:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:597:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:827:22
+]]
+JavaScript error: moz-extension://1e9e54be-f891-4a69-a883-43df4fb6703b/background.js, line 10: Error: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+vtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+1598908242209	Marionette	INFO	Stopped listening on port 63542
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598908508806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileIWe71r"
+1598908509143	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908509593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908509593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908509593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908509593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908511912	Marionette	INFO	Listening on port 64806
+1598908511918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598908538016	Marionette	INFO	Stopped listening on port 64806
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598908541589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileXhUdWu"
+1598908541921	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908542357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908542357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908542357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908542357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908544515	Marionette	INFO	Listening on port 64985
+1598908544700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598908561851	Marionette	INFO	Stopped listening on port 64985
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598908597757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileoMiOxj"
+1598908598089	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908598509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908598509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908598510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908598510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908600977	Marionette	INFO	Listening on port 65287
+1598908601367	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1598908612250	Marionette	INFO	Stopped listening on port 65287
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598908617562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileLAnul6"
+1598908617884	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908618290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908618290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908618291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908618291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908620437	Marionette	INFO	Listening on port 65448
+1598908620684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598908632059	Marionette	INFO	Stopped listening on port 65448
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598908635897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileM7cxv6"
+1598908636230	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908636645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908636645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908636645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908636645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908638882	Marionette	INFO	Listening on port 49225
+1598908639012	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598908752052	Marionette	INFO	Stopped listening on port 49225
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+in headless mode.
+1598908727099	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908727543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908727543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908727543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908727543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908728916	Marionette	INFO	Listening on port 49657
+1598908729374	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile4Oxp04"
+*** You are running in headless mode.
+1598908831209	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908831647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908831647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908831647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908831647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908832758	Marionette	INFO	Listening on port 50081
+1598908832948	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598908854552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile5qwM3q"
+*** You are running in headless mode.
+1598908854889	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598908855333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598908855334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598908855334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598908855334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598908856960	Marionette	INFO	Listening on port 50222
+1598908857163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909010063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileVsF0sA"
+*** You are running in headless mode.
+1598909010396	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909010850	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909010851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909010851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909010851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909012350	Marionette	INFO	Listening on port 50760
+1598909012676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6313 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6313 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909035299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileZ3RnSe"
+*** You are running in headless mode.
+1598909035653	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909036120	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909036120	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909036120	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909036120	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909037564	Marionette	INFO	Listening on port 50931
+1598909037909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909057400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileMx3mh3"
+*** You are running in headless mode.
+1598909057730	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909058159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909058159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909058159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909058159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909059586	Marionette	INFO	Listening on port 51106
+1598909060014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909325818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileuflAjr"
+*** You are running in headless mode.
+1598909326165	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909326633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909326633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909326633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909326633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909328111	Marionette	INFO	Listening on port 52007
+1598909328428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 4170 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 4170 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909370903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileJ5HczM"
+*** You are running in headless mode.
+1598909371271	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909371716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909371716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909371716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909371716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909373244	Marionette	INFO	Listening on port 52278
+1598909373513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+1598909391868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilen8LwYo"
+*** You are running in headless mode.
+1598909392196	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598909392628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598909392628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598909392628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598909392628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598909394140	Marionette	INFO	Listening on port 52440
+1598909394479	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
+JavaScript error: https://s.yimg.com/uc/finance/dd-site/js/vendor.7e40d0fcfb5084e63ec3.modern.js, line 2: Error: {"output":{"message":"request failed"},"meta":{}}
