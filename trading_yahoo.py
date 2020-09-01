@@ -31,20 +31,24 @@ def stockbroker(stock, budget, wait):
                 comprar(cierre_actual, budget, stock)
                 
         for stock_vender in noVendidos():
-            if stock['Precio'] < data['Close'][len-1]:
-                vender(cierre_actual, stock_vender)
+            #print('Vender', stock_vender['coste'], 'a', data['Close'][len-1])
+            if stock_vender['coste'] < data['Close'][len-1] and stock_vender['empresa'] == stock:
+                vender(data['Close'][len-1], stock_vender)
         time.sleep(60 - wait)
 
 def comprar(valor, budget, empresa):
-    print('Compra')
+    print('Compra', empresa, valor)
     n_acciones = int(budget/valor)
     with open("stocks.json", "r") as outfile: 
         d = json.load(outfile)
         d['compras'].append({'coste': valor, 'n_acciones': n_acciones, 'empresa': empresa})
+    
+        with open("stocks.json", "w") as outfile: 
+            json.dump(d, outfile, indent=4)
 
         with open("dinero.txt", "r") as outfile: 
             dinero = outfile.readline()
-            dinero = int(dinero) - n_acciones*valor
+            dinero = float(dinero) - n_acciones*valor
             with open("dinero.txt", "w") as outfile:
                 outfile.write(str(dinero))
 
@@ -54,18 +58,18 @@ def noVendidos():
         return d['compras']
 
 def vender(precio, stock):
-    print('Vende')
+    print('Vende', stock['empresa'], precio)
     with open("stocks.json", "r") as outfile: 
         d = json.load(outfile)
         d['compras'].remove(stock)
+        with open("stocks.json", "w") as outfile: 
+            json.dump(d, outfile, indent=4)
 
         with open("dinero.txt", "r") as outfile: 
             dinero = outfile.readline()
-            dinero = int(dinero) + stock['n_acciones'] * precio
+            dinero = float(dinero) + stock['n_acciones'] * precio
             with open("dinero.txt", "w") as outfile:
                 outfile.write(str(dinero))
-
-
 
 def hebras(stocks):
     i = 0
@@ -76,7 +80,7 @@ def hebras(stocks):
         i += 1
         print('Inicio Hebra: ', s)
 
-stocks = getStocks()
+stocks = getStocks(10)
 msft = yf.Ticker('MSFT')
 data = msft.history(period="7d", interval="1m")
 

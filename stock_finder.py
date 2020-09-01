@@ -25,6 +25,7 @@ def getStocks(num_stocks = 5):
     time.sleep(1)
     user.click()
     print('Data sorted')
+    time.sleep(1)
 
     stocks_names = []
 
@@ -33,4 +34,6 @@ def getStocks(num_stocks = 5):
         xpath = '/html/body/div[1]/div/div/div[1]/div/div[2]/div/div/div[6]/div/div/section/div/div[2]/div[1]/table/tbody/tr[' + str(pos) +']/td[1]/a'
         user = driver.find_element_by_xpath(xpath).text
         stocks_names.append(user)
+
+    driver.close()
     return (stocks_names)
