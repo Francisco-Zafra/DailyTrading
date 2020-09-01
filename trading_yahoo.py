@@ -5,8 +5,11 @@ import json
 from stock_finder import getStocks
 import threading
 import time
+import logging
 
 def stockbroker(stock, budget, wait):
+    logging.basicConfig(filename='trading.log',level=logging.INFO, format='%(asctime)s %(message)s')
+    cartera = budget
     while(True):
         time.sleep(wait)
         msft = yf.Ticker(stock)
@@ -16,7 +19,8 @@ def stockbroker(stock, budget, wait):
 
         # output = open('data.json', 'w')
         # output.write(data.to_json(orient='table', indent=4))
-
+        logging.info(stock + ' ' + str(data['Close'][len-1]))
+        print(stock, str(data['Close'][len-1]))
         media_7_dias = sum(data['High'])/(data['High'].size)
         if data['Close'][len-2] <= data['Close'][len-3] and data['Close'][len-3] <= data['Close'][len-4]:
             cierre_anterior = data['Close'][len-2]
@@ -26,18 +30,25 @@ def stockbroker(stock, budget, wait):
             cierre_actual = data['Close'][len-1]
 
             ATR = max(high_anterior - low_anterior, high_anterior - cierre_anterior, cierre_anterior - low_anterior)
-
-            if(cierre_anterior - ATR > cierre_actual):
-                comprar(cierre_actual, budget, stock)
+            if(cierre_anterior - ATR > cierre_actual and cierre_actual < cartera):
+                comprar(cierre_actual, cartera, stock)
+                cartera -= cierre_actual * int(cartera/cierre_actual)
+                print('Me queda: ', cartera)
+                logging.info('Me queda: ' + str(cartera))
                 
         for stock_vender in noVendidos():
             #print('Vender', stock_vender['coste'], 'a', data['Close'][len-1])
-            if stock_vender['coste'] < data['Close'][len-1] and stock_vender['empresa'] == stock:
+            if stock_vender['coste']  < data['Close'][len-1] and stock_vender['empresa'] == stock:
                 vender(data['Close'][len-1], stock_vender)
+                cartera = budget
+                print('Cartera vuelve a: ', budget)
+                logging.info('Cartera vuelve a: ' + str(budget))
         time.sleep(60 - wait)
 
 def comprar(valor, budget, empresa):
+    logging.basicConfig(filename='example.log',level=logging.DEBUG)
     print('Compra', empresa, valor)
+    logging.info('Compra' + empresa + ' ' + str(valor))
     n_acciones = int(budget/valor)
     with open("stocks.json", "r") as outfile: 
         d = json.load(outfile)
@@ -58,7 +69,9 @@ def noVendidos():
         return d['compras']
 
 def vender(precio, stock):
+    logging.basicConfig(filename='example.log',level=logging.DEBUG)
     print('Vende', stock['empresa'], precio)
+    logging.info('Vende' + stock['empresa'] + ' ' + str(precio))
     with open("stocks.json", "r") as outfile: 
         d = json.load(outfile)
         d['compras'].remove(stock)
