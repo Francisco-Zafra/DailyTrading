@@ -114,6 +114,22 @@ def vender(precio, stock):
             with open("dinero.txt", "w") as outfile:
                 outfile.write(str(dinero))
 
+def broker_antiguo(stock):
+    noVendido = True
+    msft = yf.Ticker(stock)
+    data = msft.history(period="7d", interval="1m")
+
+    while(noVendido):
+        for stock_vender in noVendidos():
+            #print('Vender', stock_vender['coste'], 'a', data['Close'][len-1])
+            if cond_venta(stock_vender, data, stock):
+                vender(data['Close'][len-1], stock_vender)
+                noVendido = False
+                print('Venta antigua completada: ', stock)
+                logging.info('Venta antigua completada: ' + stock)
+        time.sleep(60)
+    
+
 def hebras(stocks):
     i = 0
     budget = 100
@@ -124,9 +140,22 @@ def hebras(stocks):
         i += 1
         print('Inicio Hebra: ', s)
 
-stocks = getStocks(10)
-msft = yf.Ticker('MSFT')
-data = msft.history(period="7d", interval="1m")
+def hebras_ventas_antiguas(stocks):
+    noV = noVendidos()
+    for stock in stocks:
+        esta = False
+        for n in noV:
+            if n['empresa'] == stock:
+                esta = True
+        if not esta:
+            hilo = threading.Thread(target=broker_antiguo,
+                                    args=(stock))
+            hilo.start()
+            print('Inicio Hebra venta antigua: ', stock)    
+    return
 
-hebras(stocks)
+stocks = getStocks(10)
+#hebras(stocks)
+hebras_ventas_antiguas(stocks)
+
 

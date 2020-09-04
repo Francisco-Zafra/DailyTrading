@@ -1,5 +1,15 @@
 {
     "ventas": [],
     "compras": [
+        {
+            "coste": 0.647,
+            "n_acciones": 154,
+            "empresa": "BKY.MC"
+        },
+        {
+            "coste": 1.79,
+            "n_acciones": 55,
+            "empresa": "BIO.MC"
+        }
     ]
 }
