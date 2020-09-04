@@ -155,7 +155,7 @@ def hebras_ventas_antiguas(stocks):
     return
 
 stocks = getStocks(10)
-#hebras(stocks)
+hebras(stocks)
 hebras_ventas_antiguas(stocks)
 
 
