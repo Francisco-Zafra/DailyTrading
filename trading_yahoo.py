@@ -42,6 +42,7 @@ def stockbroker(stock, budget, wait):
         time.sleep(60 - wait)
 
 def esta_bajando(data):
+    len = data['High'].size
     vez1 = data['Close'][len-2]
     vez2 = data['Close'][len-3]
     cont = 4
@@ -95,6 +96,7 @@ def noVendidos():
         return d['compras']
 
 def cond_venta(stock_vender, data, stock):
+    len = data['High'].size
     return stock_vender['coste'] < data['Close'][len-1] and stock_vender['empresa'] == stock
 
 
@@ -142,16 +144,16 @@ def hebras(stocks):
 
 def hebras_ventas_antiguas(stocks):
     noV = noVendidos()
-    for stock in stocks:
+    for n in noV:
         esta = False
-        for n in noV:
+        for stock in stocks:
             if n['empresa'] == stock:
                 esta = True
         if not esta:
             hilo = threading.Thread(target=broker_antiguo,
-                                    args=(stock))
+                                    args=(n['empresa'],))
             hilo.start()
-            print('Inicio Hebra venta antigua: ', stock)    
+            print('Inicio Hebra venta antigua: ', n['empresa'])    
     return
 
 stocks = getStocks(10)
