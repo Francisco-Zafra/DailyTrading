@@ -8,9 +8,10 @@ import time
 import logging
 
 def stockbroker(stock, budget, wait):
+    fin = False
     logging.basicConfig(filename='trading.log',level=logging.INFO, format='%(asctime)s %(message)s')
     cartera = budget
-    while(True):
+    while(not fin):
         time.sleep(wait)
         msft = yf.Ticker(stock)
         data = msft.history(period="7d", interval="1m")
@@ -19,7 +20,7 @@ def stockbroker(stock, budget, wait):
 
         # output = open('data.json', 'w')
         # output.write(data.to_json(orient='table', indent=4))
-        logging.info(stock + ' ' + str(data['Close'][len-1]))
+        #logging.info(stock + ' ' + str(data['Close'][len-1]))
         print(stock, str(data['Close'][len-1]))
         media_7_dias = sum(data['High'])/(data['High'].size)
         #Condicion: Lleva tres veces seguidas bajando
@@ -40,6 +41,10 @@ def stockbroker(stock, budget, wait):
                 print('Cartera vuelve a: ', budget)
                 logging.info('Cartera vuelve a: ' + str(budget))
         time.sleep(60 - wait)
+        if horaCierre():
+            fin = True
+
+    logging.info(stock + ' cerrado, hasta mañana')
 
 def esta_bajando(data):
     len = data['High'].size
@@ -156,8 +161,32 @@ def hebras_ventas_antiguas(stocks):
             print('Inicio Hebra venta antigua: ', n['empresa'])    
     return
 
-stocks = getStocks(10)
-hebras(stocks)
-hebras_ventas_antiguas(stocks)
+def horaCierre():
+    reloj = time.ctime().split()[3]
+    horas = int(reloj.split(':')[0])
+    minutos = int(reloj.split(':')[1])
+
+    if horas > 17 and minutos > 30:
+        return True
+    return False
+
+def horaApertura():
+    reloj = time.ctime().split()[3]
+    horas = int(reloj.split(':')[0])
+    minutos = int(reloj.split(':')[1])
+
+    if horas == 9 and minutos >= 0 and minutos <= 5:
+        return True
+    return False
+
+while(True):
+    if horaApertura():
+        stocks = getStocks(10)
+        hebras(stocks)
+        hebras_ventas_antiguas(stocks)
+        time.sleep(600)
+    print('Esperando hora de apertura (9:00)')
+    time.sleep(60)
+    
 
 
