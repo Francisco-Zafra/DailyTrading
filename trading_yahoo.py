@@ -9,7 +9,6 @@ import logging
 
 def stockbroker(stock, budget, wait):
     fin = False
-    logging.basicConfig(filename='trading.log',level=logging.INFO, format='%(asctime)s %(message)s')
     cartera = budget
     while(not fin):
         time.sleep(wait)
@@ -78,7 +77,6 @@ def cond_compra(data, cartera):
     
 
 def comprar(valor, budget, empresa):
-    logging.basicConfig(filename='example.log',level=logging.DEBUG)
     print('Compra', empresa, valor)
     logging.info('Compra' + empresa + ' ' + str(valor))
     n_acciones = int(budget/valor)
@@ -106,7 +104,6 @@ def cond_venta(stock_vender, data, stock):
 
 
 def vender(precio, stock):
-    logging.basicConfig(filename='example.log',level=logging.DEBUG)
     print('Vende', stock['empresa'], precio)
     logging.info('Vende' + stock['empresa'] + ' ' + str(precio))
     with open("stocks.json", "r") as outfile: 
@@ -181,6 +178,7 @@ def horaApertura():
         return True
     return False
 
+logging.basicConfig(filename='trading.log',level=logging.INFO, format='%(asctime)s %(message)s')
 abierto = False
 while(True):
     if horaApertura() and not abierto:
