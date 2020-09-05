@@ -23,7 +23,7 @@ def stockbroker(stock, budget, wait):
         print(stock, str(data['Close'][len-1]))
         media_7_dias = sum(data['High'])/(data['High'].size)
         #Condicion: Lleva tres veces seguidas bajando
-        if esta_bajando(data):
+        if esta_bajando(data, False):
 
             cierre_actual = data['Close'][len-1]
             if(cond_compra(data, cartera)):
@@ -45,24 +45,24 @@ def stockbroker(stock, budget, wait):
 
     logging.info(stock + ' cerrado, hasta mañana')
 
-def esta_bajando(data):
+def esta_bajando(data, secure = True):
     len = data['High'].size
     vez1 = data['Close'][len-2]
     vez2 = data['Close'][len-3]
     cont = 4
-    while(vez1 == vez2):
+    while(vez1 == vez2 and secure):
         vez2 = data['Close'][len-cont]
         cont += 1
         if(cont > len):
             return False
     vez3 = data['Close'][len-cont]
-    while(vez2 == vez3):
+    while(vez2 == vez3 and secure):
         vez3 = data['Close'][len-cont]
         cont += 1 
         if(cont > len):
             return False         
 
-    return vez1 < vez2 and vez2 < vez3
+    return vez1 <= vez2 and vez2 <= vez3
 
 def cond_compra(data, cartera):
     len = data['High'].size
@@ -163,7 +163,7 @@ def horaCierre():
     horas = int(reloj.split(':')[0])
     minutos = int(reloj.split(':')[1])
 
-    if horas > 17 and minutos > 30:
+    if horas >= 17 and minutos > 30:
         return True
     return False
 
