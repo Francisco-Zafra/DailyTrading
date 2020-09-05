@@ -175,18 +175,25 @@ def horaApertura():
     horas = int(reloj.split(':')[0])
     minutos = int(reloj.split(':')[1])
 
-    if horas == 9 and minutos >= 0 and minutos <= 5:
+    if horas >= 9 and horas <= 17 and minutos >= 0 and minutos <= 10:
         return True
     return False
 
+abierto = False
 while(True):
-    if horaApertura():
+    if horaApertura() and not abierto:
+        logging.info('Mercado abierto')
+        abierto = True
         stocks = getStocks(10)
         hebras(stocks)
         hebras_ventas_antiguas(stocks)
         time.sleep(600)
-    print('Esperando hora de apertura (9:00)')
-    time.sleep(60)
+    elif not abierto:
+        print('Esperando hora de apertura (9:00)')
+        time.sleep(60)
+    elif horaCierre() and abierto:
+        logging.info('Mercado cerrado')
+        abierto = False
     
 
 

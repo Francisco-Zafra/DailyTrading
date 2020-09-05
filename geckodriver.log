@@ -1374,3 +1374,5 @@ JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Failed to create
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1599259977351	Marionette	INFO	Listening on port 63201
 1599259977717	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
