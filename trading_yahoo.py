@@ -175,7 +175,9 @@ def horaApertura():
     horas = int(reloj.split(':')[0])
     minutos = int(reloj.split(':')[1])
 
-    if horas >= 9 and horas <= 17 and minutos >= 0 and minutos <= 10:
+    if horas >= 9 and horas <= 17:
+        if horas == 17 and minutos > 30:
+            return False
         return True
     return False
 
