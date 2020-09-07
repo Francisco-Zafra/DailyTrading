@@ -100,7 +100,7 @@ def noVendidos():
 
 def cond_venta(stock_vender, data, stock):
     len = data['High'].size
-    return stock_vender['coste'] < data['Close'][len-1] and stock_vender['empresa'] == stock
+    return (stock_vender['coste'] < data['Close'][len-1] or data['Close'][len-1] < stock_vender['coste'] * 0.98) and stock_vender['empresa'] == stock
 
 
 def vender(precio, stock):
